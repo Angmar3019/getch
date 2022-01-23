@@ -4,7 +4,7 @@ A simple version of getch() for C without the use of conio.h. The code is based 
 ## Usage
 
 1. Download `getch.h` and move the file into your project folder
-2. Add the header file to your main program with `include "getch.h`
+2. Add the header file to your main program with `#include "getch.h"`
 3. After that you can call the function as usual with `getch()`
 
 ## Example
