@@ -7,4 +7,15 @@ A simple version of getch() for C without the use of conio.h. The code is based 
 2. Add the header file to your main program with `include "getch.h`
 3. After that you can call the function as usual with `getch()`
 
+## Example
+```
+#include "getch.h"
+
+int main() {
+    int x;  
+    x = getch();
+    printf("%d\n", x);
+}
+```
+
 
